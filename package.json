@@ -1,0 +1,27 @@
+{
+  "name": "kitchatapp",
+  "version": "1.0.0",
+  "description": "chat app for it students",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvi2018/kitchatapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "bhuvana priyanka gunavathi kanimozhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuvi2018/kitchatapp/issues"
+  },
+  "homepage": "https://github.com/bhuvi2018/kitchatapp#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
