@@ -1,7 +1,5 @@
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-server_ip_address =server_ip_address+":"+server_port;
-var socket = io.connect(server_ip_address);
+
+var socket = io.connect('http://chatapp-maduchat.7e14.starter-us-west-2.openshiftapps.com:8000',{'forceNew':true });
   socket.on('connect', function(data) {
       socket.emit('join', 'Hello server from client');
   });
