@@ -1,5 +1,5 @@
 
-var socket = io.connect('http://chatapp-maduchat.7e14.starter-us-west-2.openshiftapps.com:8000',{'forceNew':true });
+var socket = io.connect('http://chatapp-maduchat.7e14.starter-us-west-2.openshiftapps.com:8080',{'forceNew':true });
   socket.on('connect', function(data) {
       socket.emit('join', 'Hello server from client');
   });
